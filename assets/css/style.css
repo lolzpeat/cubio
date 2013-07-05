@@ -1,0 +1,296 @@
+/*!
+ * Bootstrap v2.3.2
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+audio:not([controls]) {
+  display: none;
+}
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+a:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+a:hover,
+a:active {
+  outline: 0;
+}
+
+sub,
+sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+img {
+  width: auto\9;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+#map_canvas img,
+.google-maps img {
+  max-width: none;
+}
+
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  font-size: 100%;
+  vertical-align: middle;
+}
+
+button,
+input {
+  *overflow: visible;
+  line-height: normal;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+
+label,
+select,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+input[type="radio"],
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+input[type="search"] {
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+  -webkit-appearance: textfield;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+body { margin: 0; }
+
+.intro {
+  width: 100%;
+  height: 100%;
+  background: #000;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.intro .inner-intro {
+  width: 100%;
+  height: 100%;
+  background: #30CDD6;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+
+.intro .inner-intro .intro-logo {
+  position: relative;
+  top: 45%;
+  left: 48%;
+  opacity: 0;
+  -webkit-transform:scale(2);
+  -ms-transform:scale(2);
+  -moz-transform:scale(2);
+}
+
+.wrapper {
+	width: 950px;
+	margin: auto;
+}
+
+.menu {
+	margin-bottom: 20px;
+  height: 91px;
+  background: #30CDD6;
+}
+
+#menu {
+  width: 490px;
+  height: 90px;
+  float: left;
+}
+
+#menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+#menu ul li {
+  float: left;
+  list-style-type: none;
+  border-right: 1px solid #bbb;
+  padding:50px 15px 15px 0;
+  margin:0 3px 0 0;
+}
+
+#menu ul li:last-child {
+  margin: 0;
+  padding:50px 0 15px 0;
+  border: none;
+}
+
+#menu ul li a {
+  font-family: Arial;
+  font-size:11px;
+  color:#fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+
+#menu ul li a.active {
+  position: relative;
+  top: 15px;
+}
+
+.logo {
+  float: right;
+}
+
+.banner {
+	margin-bottom: 10px;
+}
+
+.box {
+	float: left;
+	margin:0 0 10px 10px;
+  min-height:200px;
+}
+
+.box img {
+  width: 100%;
+}
+
+.box.two-col {
+  width: 310px;
+}
+
+.box.one-col {
+  width: 150px;
+}
+
+.box-section {
+	width: 960px;
+  margin-left: -10px;
+}
+
+.btn-view-more {
+  width: 950px;
+  height: 43px;
+  margin: 0 auto;
+}
+
+.btn-view-more img {
+  width: 100%;
+}
