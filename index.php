@@ -95,7 +95,8 @@
                 duration:700,
                 delay:2200,
                 complete: function() { 
-                    $('.intro').transition({ opacity:0,duration:300 }); 
+                    $('.intro').transition({ opacity:0,duration:300 });
+                    $('.intro').hide();
                 }
             });
             
