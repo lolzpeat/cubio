@@ -4,6 +4,7 @@
         <p>© 2013 WORK ACTUALLY CO.,LTD.  All Rights Reserved.</p>
     </div>
 </footer>
+</div>
 
     <!-- Le javascript
     ================================================== -->
