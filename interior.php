@@ -1,6 +1,6 @@
 <?php include("inc/header.php") ?>
 <div class="wrapper">
-    <img class="page-h" src="images/architecture-h.png" alt="Architecture">
+    <img class="page-h" src="images/interior-h.png" alt="Architecture">
     <div class="banner"><a class="open-content-popup" href="architect-detail.php"><img class="lazyload" src="images/grey.gif" data-original="images/01.jpg" alt=""></a></div>
     <div class="box-section">
         <div class="box two-col"><a class="open-content-popup" href="architect-detail.php"><img class="lazyload" src="images/grey.gif" data-original="images/02.jpg" alt=""></a></div>
@@ -18,6 +18,6 @@
 <?php include("inc/footer.php") ?>
 <script type="text/javascript">
     $(document).ready(function() {
-        $('#menu ul li').eq(0).find("a").addClass("active");
+        $('#menu ul li').eq(1).find("a").addClass("active");
     });
 </script>

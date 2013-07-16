@@ -169,8 +169,10 @@ textarea {
   vertical-align: top;
 }
 
-body { margin: 0; }
-
+body { margin: 0; font-family: Myriad Pro; }
+p { margin: 0 0 15px 0; font-weight: normal; font-size:14px; line-height: 18px; }
+ul li { font-size:14px; }
+/*
 .intro {
   width: 100%;
   height: 100%;
@@ -191,7 +193,6 @@ body { margin: 0; }
   z-index: 10;
 }
 
-
 .intro .inner-intro .intro-logo {
   position: relative;
   top: 45%;
@@ -201,12 +202,20 @@ body { margin: 0; }
   -ms-transform:scale(2);
   -moz-transform:scale(2);
 }
+*/
 
+.no-margin { margin: 0; }
+.center { display: block; margin: auto; text-align: center; }
+.alignleft { float: left; }
+.alignright { float: right; }
+
+/*-===== Wrapper =====-*/
 .wrapper {
 	width: 950px;
 	margin: auto;
 }
 
+/*-===== Top Menu =====-*/
 .menu {
 	margin-bottom: 20px;
   height: 91px;
@@ -214,7 +223,7 @@ body { margin: 0; }
 }
 
 #menu {
-  width: 490px;
+  width: 650px;
   height: 90px;
   float: left;
 }
@@ -228,13 +237,11 @@ body { margin: 0; }
   float: left;
   list-style-type: none;
   border-right: 1px solid #bbb;
-  padding:50px 15px 15px 0;
   margin:0 3px 0 0;
 }
 
 #menu ul li:last-child {
   margin: 0;
-  padding:50px 0 15px 0;
   border: none;
 }
 
@@ -247,6 +254,7 @@ body { margin: 0; }
   display: block;
   position: relative;
   z-index: 1;
+  padding:50px 15px 15px 0;
 }
 
 #menu ul li a.active {
@@ -258,18 +266,49 @@ body { margin: 0; }
   float: right;
 }
 
-.banner {
-	margin-bottom: 10px;
+/*-===== Content =====-*/
+.page-h {
+  display: block;
+  margin: 10px 0;
 }
 
-.box {
-	float: left;
-	margin:0 0 10px 10px;
-  min-height:200px;
+.pagename-h {
+  width: 150px;
+  display: block;
+  float: right;
+  text-align: right;
+  color: #2FCCD5;
+  font-weight: normal;
+  margin: 0 20px 0 0;
 }
 
-.box img {
-  width: 100%;
+/*-===== Col Wrapper =====-*/
+.box-section {
+  width: 960px;
+  margin-left: -10px;
+}
+
+.two-col {
+  width: 320px;
+  float: left;
+}
+
+.four-col {
+  width: 640px;
+  float: left;
+}
+
+/*-===== Box Col Size =====-*/
+.box.five-col {
+  width: 790px;
+}
+
+.box.four-col {
+  width: 630px;
+}
+
+.box.three-col {
+  width: 460px;
 }
 
 .box.two-col {
@@ -280,17 +319,176 @@ body { margin: 0; }
   width: 150px;
 }
 
-.box-section {
-	width: 960px;
-  margin-left: -10px;
+.box.five-col.left-separator {
+  width: 770px;
+  border-left: 1px solid #898B8D; 
+  padding-left: 10px;
+}
+
+.box.four-col.left-separator {
+  width: 600px;
+  border-left: 1px solid #898B8D; 
+  padding-left: 10px;
+}
+
+/*-===== Inside Box Col =====-*/
+.grey-inner {
+    background:#898B8D;
+    color: #fff;
+    padding:50px 20px 20px;
+}
+
+/*-===== Page Element =====-*/
+.banner {
+  margin-bottom: 10px;
+}
+
+.box {
+  float: left;
+  margin:0 0 10px 10px;
+}
+
+.box img {
+  width: 100%;
 }
 
 .btn-view-more {
   width: 950px;
   height: 43px;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 .btn-view-more img {
   width: 100%;
 }
+
+/*-===== 3d Page =====-*/
+.model-viewer {
+  width: 480px;
+  height: 420px;
+  margin: 0 auto 20px;
+  background : url(../../images/ajax-loader.gif) no-repeat 50% 50%;
+  cursor: move;
+}
+
+.model-viewer img {
+  display: block;
+  margin: auto;
+  width: 420px;
+}
+
+/*-===== Profile Page =====-*/
+.profile-page p {
+  font-size:16px;
+}
+
+.profile-page ul li {
+  font-size:16px;
+}
+
+/*-===== Our Team Page =====-*/
+.team-detail {
+  background: #898B8D;
+  color: #fff;
+  padding:30px 20px 20px 20px;
+  height: 388px;
+}
+
+.team-detail h1.name {
+  font-size:16px;
+  margin: 10px 0 5px 0;
+}
+
+.team-detail span.team-position {
+  font-size:16px;
+  color: #666;
+}
+
+.team-detail h2.work-exp {
+  font-size:15px;
+  margin:5px 0;
+  color: #666;
+}
+
+.team-detail h3 {
+  font-size:14px;
+  margin:10px 0 5px;
+}
+
+.team-detail p {
+  font-size:14px;
+}
+
+.team-detail ul {
+  margin: 0;
+}
+
+.position-box {
+  background: #2FCDD5;
+  height: 100px;
+}
+
+.position-box p {
+  text-align: center;
+  display: block;
+  padding: 40px 0;
+  text-transform: uppercase;
+  color: #fff;
+  font-size:30px;
+}
+
+/*-===== Contact Page =====-*/
+.address {
+  padding-left: 40px;
+  background:url(../../images/icon-address.png) left center no-repeat;
+}
+
+.telephone {
+  padding:3px 0 5px 40px;
+  background:url(../../images/icon-telephone.png) left center no-repeat;
+}
+
+.email {
+  padding:3px 0 5px 40px;
+  background:url(../../images/icon-email.png) left center no-repeat;
+}
+
+/*-===== Single Page Detail =====-*/
+.single-detail .box .grey-inner {
+  height: 340px;
+}
+
+.detail-3d .box .grey-inner {
+  height: 340px;
+}
+
+.detail-3d .box {
+  margin-bottom: 0;
+}
+
+/*-===== Footer =====-*/
+.scroll-top {
+  width: 33px;
+  height: 22px;
+  display: block;
+  background:url(../../images/scroll-top.png) 0 0 no-repeat;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+}
+
+.footer {
+  background: #898B8D;
+  margin-top: 30px;
+  padding: 20px 0;
+}
+
+.footer p {
+  color: #cacaca;
+  font-size:12px;
+  display: block;
+  text-align: center;
+  margin: 0;
+}
+

@@ -187,7 +187,7 @@
   .menu {
     margin: 0 -20px 20px;
   }
-/*
+
   .wrapper {
     width: auto;
   }
@@ -207,11 +207,11 @@
   }
 
   .box.one-col {
-    width: 48%;
-    margin-left: 1%;
+    width: 100%;
+    margin-left: 0;
   }
-  */
-
+  
+/*
   .wrapper {
     width: 280px;
   }
@@ -231,10 +231,11 @@
   .box.one-col {
     width: 135px;
   }
-
+*/
   .btn-view-more {
     width: 280px;
   }
+ 
 }
 
 .visible-print {
