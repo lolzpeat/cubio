@@ -482,6 +482,9 @@ ul li { font-size:14px; }
   background: #898B8D;
   margin-top: 30px;
   padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer p {
