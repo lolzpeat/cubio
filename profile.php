@@ -4,7 +4,7 @@
 		<div class="box one-col">
 			<h1 class="pagename-h">OUR PROFILE</h1>
 		</div>
-		<div class="box five-col left-separator">
+		<div class="box four-col left-separator">
 			<p>A Group of Experienced &amp; talented Architects / Interior designers/ 3D Visualizers was founded in June 2012 in order to built up the team to support rapidly growing designs &amp; 3D renderingmarket in Thailand and South east Asia region our target is tobe one of leader in the market.</p>
 		
 			<p>Our strength is in our through under standing of ourcorporate clients’ project and our firm commitment in seeingprojects through completion successfully</p>
