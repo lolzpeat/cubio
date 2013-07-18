@@ -69,18 +69,20 @@
             });
 
             // Popup
-            $('.open-content-popup').fancybox({
-                'showCloseButton'       : true,
-                'width'                 : 960,
-                'height'                : 'auto',
-                'padding'               : 0,
-                'margin'                : 0,
-                'autoDimensions'        : false,
-                'autoScale'             : false,
-                'centerOnScroll'        : false,
-                'overlayOpacity'        : 0
-            });
-
+			function openContentPopup() {
+				$('.open-content-popup').fancybox({
+					'showCloseButton'       : true,
+					'width'                 : 960,
+					'height'                : 'auto',
+					'padding'               : 0,
+					'margin'                : 0,
+					'autoDimensions'        : false,
+					'autoScale'             : false,
+					'centerOnScroll'        : false,
+					'overlayOpacity'        : 0
+				});
+			}
+			openContentPopup();
             // Lazy Load
             $('img.lazyload').lazyload({
                 effect       : "fadeIn"
@@ -112,6 +114,7 @@
                 $('img.lazyload').lazyload({
                     effect       : "fadeIn"
                 });
+				openContentPopup();
             });
 
         });
